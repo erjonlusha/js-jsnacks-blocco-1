@@ -15,7 +15,7 @@ var oggetti = [
 //console.log(oggetti[key]);
 
 var pesoMin = oggetti[0].peso;
-var x;
+var x = 0;
 for (var i = 0; i < oggetti.length; i++) {
   if (oggetti[i].peso < pesoMin) {
     pesoMin = oggetti[i].peso;
